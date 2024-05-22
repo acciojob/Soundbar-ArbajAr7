@@ -1,26 +1,32 @@
-/*  your css code here. If applicable */
-*{
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
+
 #buttons {
-	background-color: #9A2EFE;
-	height: 100vh;
+	background-color: #BB00F6;
+	height: 200px;
 	width: 100vw;
+    display: flex;
+    gap: 10px;
 	align-items:center;
-	text-align:center;
-	display: flex;
-	justify-content: space-around;
+	justify-content:center;
 }
-#bodydiv {
-	text-align: center;
-}
-button{
-	margin: 7px;
-	padding:10px 15px;
-	background:#4B088A;
-	border:none;
-	color:white;
-	font-size: 12px;
-	border-radius:2px;
+
+.btn, .stop {
+	height:50px;
+	border-radius:3px;
+	background-color: #930ABF ;
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+	color: white;
 }
 
