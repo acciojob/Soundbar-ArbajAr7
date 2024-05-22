@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     buttons.forEach((button,index) => {
         button.addEventListener('click', () => {
+			
             const sound = button.getAttribute('data-sound');
             if (currentAudio) {
                 currentAudio.pause();
